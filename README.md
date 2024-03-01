@@ -1,5 +1,8 @@
 # ChessTimer SwiftUI
 Chess Timer made with SwiftUI + MVVM
+
+Uses new iOS 17 macro @Observable
+
 App color theme and time control stored with UserDefaults.
 
 ### Coming soon:
