@@ -2,7 +2,7 @@
 Chess Timer made with SwiftUI + MVVM
 App color theme and time control stored with UserDefaults.
 
-###Coming soon:
+### Coming soon:
 - Add time variations that increase after a player makes moves. (1 | 2, 3 | 2, etc).
 - Play a sound with every change of turn.
 
