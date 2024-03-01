@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E065EF4C2B8E52BF00760391 /* ChessTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF4B2B8E52BF00760391 /* ChessTimerApp.swift */; };
+		E065EF4E2B8E52BF00760391 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF4D2B8E52BF00760391 /* ContentView.swift */; };
+		E065EF502B8E52C100760391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E065EF4F2B8E52C100760391 /* Assets.xcassets */; };
+		E065EF532B8E52C100760391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E065EF522B8E52C100760391 /* Preview Assets.xcassets */; };
+		E065EF5D2B91432B00760391 /* PlayerTimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF5C2B91432B00760391 /* PlayerTimeCard.swift */; };
+		E065EF602B9143DF00760391 /* AppColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF5F2B9143DF00760391 /* AppColorTheme.swift */; };
+		E065EF622B91441700760391 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF612B91441700760391 /* Game.swift */; };
+		E065EF652B91448800760391 /* Game+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF642B91448800760391 /* Game+ViewModel.swift */; };
+		E065EF672B91478700760391 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF662B91478700760391 /* Player.swift */; };
+		E065EF6A2B91520100760391 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF692B91520100760391 /* Constants.swift */; };
+		E065EF6D2B91565700760391 /* CTIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF6C2B91565700760391 /* CTIcon.swift */; };
+		E065EF6F2B9162D400760391 /* AppThemeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF6E2B9162D400760391 /* AppThemeSheet.swift */; };
+		E065EF712B9165F900760391 /* MatchSettingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF702B9165F900760391 /* MatchSettingSheet.swift */; };
+		E065EF732B91672E00760391 /* MatchSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E065EF722B91672E00760391 /* MatchSetting.swift */; };
+		E0C741272B9245CB005AC575 /* MiddleButtonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C741262B9245CB005AC575 /* MiddleButtonMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E065EF482B8E52BF00760391 /* ChessTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E065EF4B2B8E52BF00760391 /* ChessTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessTimerApp.swift; sourceTree = "<group>"; };
+		E065EF4D2B8E52BF00760391 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E065EF4F2B8E52C100760391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E065EF522B8E52C100760391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E065EF5C2B91432B00760391 /* PlayerTimeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTimeCard.swift; sourceTree = "<group>"; };
+		E065EF5F2B9143DF00760391 /* AppColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorTheme.swift; sourceTree = "<group>"; };
+		E065EF612B91441700760391 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E065EF642B91448800760391 /* Game+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+ViewModel.swift"; sourceTree = "<group>"; };
+		E065EF662B91478700760391 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E065EF692B91520100760391 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E065EF6C2B91565700760391 /* CTIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTIcon.swift; sourceTree = "<group>"; };
+		E065EF6E2B9162D400760391 /* AppThemeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeSheet.swift; sourceTree = "<group>"; };
+		E065EF702B9165F900760391 /* MatchSettingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSettingSheet.swift; sourceTree = "<group>"; };
+		E065EF722B91672E00760391 /* MatchSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSetting.swift; sourceTree = "<group>"; };
+		E0C741262B9245CB005AC575 /* MiddleButtonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleButtonMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E065EF452B8E52BF00760391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E065EF3F2B8E52BF00760391 = {
+			isa = PBXGroup;
+			children = (
+				E065EF4A2B8E52BF00760391 /* ChessTimer */,
+				E065EF492B8E52BF00760391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E065EF492B8E52BF00760391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF482B8E52BF00760391 /* ChessTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E065EF4A2B8E52BF00760391 /* ChessTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF4B2B8E52BF00760391 /* ChessTimerApp.swift */,
+				E065EF4D2B8E52BF00760391 /* ContentView.swift */,
+				E065EF5A2B91430100760391 /* Screens */,
+				E065EF592B9142FD00760391 /* Models */,
+				E065EF5B2B91430600760391 /* Views */,
+				E065EF682B9151EE00760391 /* Helpers */,
+				E065EF5E2B9143CF00760391 /* App */,
+				E065EF4F2B8E52C100760391 /* Assets.xcassets */,
+				E065EF512B8E52C100760391 /* Preview Content */,
+			);
+			path = ChessTimer;
+			sourceTree = "<group>";
+		};
+		E065EF512B8E52C100760391 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF522B8E52C100760391 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E065EF592B9142FD00760391 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF662B91478700760391 /* Player.swift */,
+				E065EF722B91672E00760391 /* MatchSetting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E065EF5A2B91430100760391 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF632B91447000760391 /* Game */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E065EF5B2B91430600760391 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0C741262B9245CB005AC575 /* MiddleButtonMenu.swift */,
+				E065EF5C2B91432B00760391 /* PlayerTimeCard.swift */,
+				E0C741282B924DFE005AC575 /* Sheets */,
+				E065EF6B2B91564900760391 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E065EF5E2B9143CF00760391 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF5F2B9143DF00760391 /* AppColorTheme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E065EF632B91447000760391 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF612B91441700760391 /* Game.swift */,
+				E065EF642B91448800760391 /* Game+ViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E065EF682B9151EE00760391 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF692B91520100760391 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E065EF6B2B91564900760391 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF6C2B91565700760391 /* CTIcon.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E0C741282B924DFE005AC575 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				E065EF6E2B9162D400760391 /* AppThemeSheet.swift */,
+				E065EF702B9165F900760391 /* MatchSettingSheet.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E065EF472B8E52BF00760391 /* ChessTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E065EF562B8E52C100760391 /* Build configuration list for PBXNativeTarget "ChessTimer" */;
+			buildPhases = (
+				E065EF442B8E52BF00760391 /* Sources */,
+				E065EF452B8E52BF00760391 /* Frameworks */,
+				E065EF462B8E52BF00760391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessTimer;
+			productName = ChessTimer;
+			productReference = E065EF482B8E52BF00760391 /* ChessTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E065EF402B8E52BF00760391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E065EF472B8E52BF00760391 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E065EF432B8E52BF00760391 /* Build configuration list for PBXProject "ChessTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E065EF3F2B8E52BF00760391;
+			productRefGroup = E065EF492B8E52BF00760391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E065EF472B8E52BF00760391 /* ChessTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E065EF462B8E52BF00760391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E065EF532B8E52C100760391 /* Preview Assets.xcassets in Resources */,
+				E065EF502B8E52C100760391 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E065EF442B8E52BF00760391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E065EF4E2B8E52BF00760391 /* ContentView.swift in Sources */,
+				E065EF712B9165F900760391 /* MatchSettingSheet.swift in Sources */,
+				E065EF622B91441700760391 /* Game.swift in Sources */,
+				E065EF6D2B91565700760391 /* CTIcon.swift in Sources */,
+				E065EF732B91672E00760391 /* MatchSetting.swift in Sources */,
+				E065EF6F2B9162D400760391 /* AppThemeSheet.swift in Sources */,
+				E065EF602B9143DF00760391 /* AppColorTheme.swift in Sources */,
+				E065EF5D2B91432B00760391 /* PlayerTimeCard.swift in Sources */,
+				E065EF672B91478700760391 /* Player.swift in Sources */,
+				E065EF652B91448800760391 /* Game+ViewModel.swift in Sources */,
+				E065EF4C2B8E52BF00760391 /* ChessTimerApp.swift in Sources */,
+				E065EF6A2B91520100760391 /* Constants.swift in Sources */,
+				E0C741272B9245CB005AC575 /* MiddleButtonMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E065EF542B8E52C100760391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E065EF552B8E52C100760391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E065EF572B8E52C100760391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChessTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = DGLQEP2M6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devbojawn.ChessTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E065EF582B8E52C100760391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChessTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = DGLQEP2M6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devbojawn.ChessTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E065EF432B8E52BF00760391 /* Build configuration list for PBXProject "ChessTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E065EF542B8E52C100760391 /* Debug */,
+				E065EF552B8E52C100760391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E065EF562B8E52C100760391 /* Build configuration list for PBXNativeTarget "ChessTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E065EF572B8E52C100760391 /* Debug */,
+				E065EF582B8E52C100760391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E065EF402B8E52BF00760391 /* Project object */;
+}
