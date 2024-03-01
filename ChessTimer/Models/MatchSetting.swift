@@ -17,7 +17,7 @@ enum MatchSetting: Int, CaseIterable, Identifiable {
     
     var timeAmount: Int {
         switch self {
-        case .oneMinute: return 3
+        case .oneMinute: return 60
         case .threeMinute: return 180
         case .fiveMinute: return 300
         case .tenMinute: return 600
